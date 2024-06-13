@@ -1,0 +1,246 @@
+
+body {
+    margin: 1em;
+    transition: transform 0.5s;
+    background-image: url(Fondo/Canyon_valley_flowers-Beautiful_landscape.jpg);
+    background-position: center center;    
+    background-repeat: no-repeat;
+    /* background-size: 600px; */
+    background-attachment: fixed;
+    /* background-color: bisque; */  
+    
+    
+}
+
+#Title-Principal {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Pacifico-Regular;
+    src: url(Fonts/Pacifico-Regular.ttf);
+}
+
+h4 {
+    background: #ccc;
+    background: radial-gradient(#eff1ff, #000);
+    font-size: 57px;
+    font-family: Pacifico-Regular;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+p {
+    background: #ccc;
+    background: radial-gradient(#eff1ff, #000);
+    font-size: 37px;
+    font-family: Pacifico-Regular;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.tittle {
+    font-size: 40px;
+}
+
+#principal {
+    font-size: 100px;
+    color: crimson;
+}
+
+#titles {
+    border: 2px solid black;
+    width: 60vw;
+    height: 50vh;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Pacifico-Regular;
+    background-color: #000;
+}
+
+span {
+    user-select: none;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: -18px;
+    color: #fff;
+    text-shadow: 
+    -20px 20px 20px#000,
+    -20px 20px 20px#0000009f,
+    -20px 20px 20px#040303a1,
+    -20px 20px 20px#0403037b;
+    -webkit-box-reflect: below 8px linear-gradient(transparent, #fff5);
+}
+
+.canal {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 8px 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+/* .canal:hover {
+    background-color: skyblue;
+    opacity: 0.7;
+}  */
+
+#canal-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 1em;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+body #elPalomarTV {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #canal10 {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #La-Metro {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #telefe {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #canal13 {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #canal9 {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #americaTV {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #tvPublica {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #pancTV {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+
+body #canal5DelPueblo {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}
+body #retroMagico {
+    width: 300px;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:
+        0px 0px 10.4px rgba(0, 0, 0, 0.045),
+        0px 0px 25.1px rgba(0, 0, 0, 0.065),
+        0px 0px 47.2px rgba(0, 0, 0, 0.08),
+        0px 0px 84.2px rgba(0, 0, 0, 0.095),
+        0px 0px 157.5px rgba(0, 0, 0, 0.115),
+        0px 0px 377px rgba(0, 0, 0, 0.16);
+}

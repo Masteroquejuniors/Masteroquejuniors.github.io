@@ -310,12 +310,12 @@
     var canal10 = document.getElementById('canal10');
     if(Hls.isSupported()) {
       var hls = new Hls();
-      hls.loadSource('https://cdntvstrm.s.llnwi.net/e1/livesec/canal10tuc.stream/chunklist.m3u8?e=1718325039&h=492b80ddcb59168b574db28c5e2b68a0');
+      hls.loadSource('https://cdntvstrm.s.llnwi.net/e1/livesec/canal10tuc.stream/chunklist.m3u8?e=1718412726&h=021e9748c17a6e57ad971828d55cf6d0');
       hls.attachMedia(canal10);
       canal10.play();
     }
     else if (canal10.canPlayType('application/vnd.apple.mpegurl')) {
-      canal10.src = 'https://cdntvstrm.s.llnwi.net/e1/livesec/canal10tuc.stream/chunklist.m3u8?e=1718325039&h=492b80ddcb59168b574db28c5e2b68a0';
+      canal10.src = 'https://cdntvstrm.s.llnwi.net/e1/livesec/canal10tuc.stream/chunklist.m3u8?e=1718412726&h=021e9748c17a6e57ad971828d55cf6d0';
       canal10.addEventListener('loadedmetadata',function() {
         canal10.play();
       });

@@ -2,9 +2,9 @@
 body {
     margin: 1em;
     transition: transform 0.5s;
-    background-image: url(Fondo/Canyon_valley_flowers-Beautiful_landscape.jpg);
-    background-position: center center;    
-    background-repeat: no-repeat;
+    background-image: url(Fondo/Rapunzel..jpg);
+    background-size: auto;  
+    background-repeat: repeat;
     /* background-size: 600px; */
     background-attachment: fixed;
     /* background-color: bisque; */  
@@ -27,9 +27,14 @@ h4 {
     background: radial-gradient(#eff1ff, #000);
     font-size: 57px;
     font-family: Pacifico-Regular;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: limegreen;
     -webkit-background-clip: text;
 }
+
+video {
+    width: 200px;
+}
+
 p {
     background: #ccc;
     background: radial-gradient(#eff1ff, #000);

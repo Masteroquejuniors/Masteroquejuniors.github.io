@@ -3,7 +3,7 @@ body {
     margin: 1em;
     transition: transform 0.5s;
     background-image: url(Fondo/Rapunzel..jpg);
-    background-size: auto;  
+    background-size: contain; 
     background-repeat: repeat;
     /* background-size: 600px; */
     background-attachment: fixed;
@@ -69,7 +69,7 @@ p {
 
 span {
     user-select: none;
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 700;
     line-height: 110px;
     letter-spacing: -18px;

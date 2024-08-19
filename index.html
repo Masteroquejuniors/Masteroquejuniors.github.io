@@ -8,33 +8,90 @@
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onclick="PlayAudio()">
 
-        <span>D</span>
-        <span>E</span>
-        <span>L</span>
-        <span>F</span>
-        <span>I</span>
-        <span>N</span>
-        <span>A</span> 
-        <span> </span>    
-        <span>&</span>    
-        <span> </span>    
-        <span>M</span>    
-        <span>A</span>    
-        <span>R</span>    
-        <span>T</span>    
-        <span>I</span>    
-        <span>N</span>    
-        <span>A</span>    
+        <h1>Sitio Web de Roque</h1>   
           
 
     <main>
 
     <article>
+      <center>
+     <audio id="presentation" controls loop>
+      <source src="./audio/Hello, welcome to my website created by myself.m4a" type="">
+      <source src="./audio/Hello, welcome to my website created by myself.mp3" type="audio/mpeg">
+      <source src="./audio/Hello, welcome to my website created by myself.ogg" type="audio/ogg">
+      <source src="./audio/Hello, welcome to my website created by myself.wav" type="audio/wav">
+      Tu navegador no es compatible con este audio
+    </audio>
+      </center>  
+    </article>
 
-    <!-- <h3 class="title">Yo soy Full Stack Developer</h3> -->
-    
+    <script>
+      function PlayAudio() {
+        document.getElementById("presentation").play();
+      }
+    </script>
+
+    <article>
+      <figure>
+        <audio id="tinkerbell" src="./sound/Tinkerbell - Effect - Fairy Sparkle Spell.m4a"></audio>
+        <img src="./iconos/Tinkerbell.png" onclick="document.getElementById('tinkerbell').play()">
+      </figure>
+    </article>
+
+    <article>
+      <figure>
+        <audio id="roque" src="./sound/Tinkerbell - Effect - Fairy Sparkle Spell.m4a"></audio>
+        <p>Lorem ipsum dolor sit <span onclick="document.getElementById('roque').play()"">Roque</span> amet consectetur, adipisicing</p>
+      </figure>
+    </article>    
+
+    <article>
+      <div id="music-container">
+        <center>
+        <div>
+          <h3>Aqua - Barbie Girl</h3>
+
+          <a href="https://www.youtube.com/watch?v=_QCjNAW0PWM" target="_blank"><img src="./cover music/Aqua - Barbie girl.webp" width="300px"></a>
+          
+            <audio src="./MP3/Aqua - Barbie Girl.mp3" controls></audio>            
+            <a class="btn" href="https://www.youtube.com/watch?v=_QCjNAW0PWM" target="_blank"><button>Youtube</button></a> <a href="Aqua Barbie Girl.html" target="_blank"><button>Video</button>
+            </a>
+                              
+        </div>
+      </center>
+        
+        <a href="https://www.youtube.com/watch?v=wh-07BzfgYY&t=93s" target="_blank" rel="noopener noreferrer"><img src="./cover music/Ace of Base - Beautiful Life.jpg" width="200px"> </a>     
+                
+        <a href="https://www.youtube.com/watch?v=YbgYWamoLmM" target="_blank" rel="noopener noreferrer"><img src="./cover music/Irene Cara - Fame.jpg" width="200px"></a>
+              
+        <a href="https://www.youtube.com/watch?v=ohSpRLXN5iE" target="_blank" rel="noopener noreferrer"><img src="./cover music/Irene Cara - What a feel it.jpeg" width="200px"></a>
+                   
+      </div>
+    </article>
+                  
+    <article>      
+      <div id="music-container">
+        <img src="./cover music/Madonna - La isla bonita.jpg" width="300px">
+        <img src="./cover music/Madonna - Whos that girl - Alemania 1992 VHS.jpg" width="200px">  
+      </div>
+    </article>
+
+    <article>
+      <div id="music-container">        
+        <a href="https://www.youtube.com/watch?v=GmLQOKAt4Iw" target="_blank" rel="noopener noreferrer"><img src="./cover music/Ray Parker Jr. - Ghostbusters.jpg" width="200px"></a> 
+        
+        <img src="./cover music/Roxette - Spending my time.jpg" width="200px">             
+        <img src="./cover music/Roxette - Spending my time 2.webp" width="200px">             
+        <img src="./cover music/Roxette - Un dia sin ti.jpg" width="200px">             
+      </div>
+    </article>
+
+    <article>
+      <div id="music-container">
+        
+      </div>
     </article>
 
     <article>
@@ -59,10 +116,11 @@
 
         </div>
     </article>
+
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Los numeros</h4>
             <video src="./Videos/05 - Los numeros.mp4" controls></video>
         </div>
@@ -70,11 +128,11 @@
             <h4 class="title">Dias de la semana</h4>
             <video src="./Videos/06 - Dias de la semana.mp4" controls></video>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Meses del año</h4>
             <video src="./Videos/07 - Meses del año.mp4" controls></video>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Estaciones del año</h4>
             <video src="./Videos/08 - Estaciones del año.mp4" controls></video>
         </div>
@@ -84,22 +142,22 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
-            <h4 class="title">Canal 8</h4>
+        <div>
+          <p>Canal 8</p>
            <!-- <video src="" controls id="canal8"></video> -->
            <a href="https://www.elocho.tv/el-ocho-en-vivo.html" target="_blank" rel="noopener noreferrer">
-             <img src="Canal 8 tucumán.png" alt="" width="300px" height="230px">
+             <img src="Canal 8 tucumán.png" alt="Canal 8" width="300px" height="230px">
           </a>
         </div>
-        <div class="canal">
-            <h4 class="title">Canal 10</h4>
+        <div>
+            <p>Canal 10</p>
             <!-- <video src="" controls id="canal10"></video>  -->
             <a href="https://canal10tucuman.com.ar" target="_blank" rel="noopener noreferrer">
                 <img src="Logo Canal 10 de Tucumán.png" alt="" width="300px" height="150px">
             </a>
         </div>
-        <div class="canal">
-            <h4 class="title">El Palomar TV de Banda Del Rio Sali</h4>
+        <div>
+            <p>El Palomar TV</p>
             <video src="" controls id="elPalomarTV"></video>
         </div>
 
@@ -110,26 +168,24 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
-            <h4 class="title">Telefe</h4>
+        <div>
+            <p>Telefe</p>
             <a href="https://mitelefe.com/" target="_blank" rel="noopener noreferrer">
                 <img src="Telefe_(nuevo_logo).png" alt="" width="300px" height="150px">
             </a>
         </div>
-        <div class="canal">
-            <h4 class="title">Canal 13</h4>
+        <div>
+            <p>Canal 13</p>
             <video src="" controls id="canal13"></video>
             <!-- <a href="https://www.eltrecetv.com.ar/vivo/" target="_blank" rel="noopener noreferrer">
                 <img src="Logo_Canal_13_200_8.png" alt="" width="210px" height="180px">
             </a>  -->
         </div>
-        <div class="canal">
-            <h4 class="title">America Tucuman</h4>
+        <div>
+            <p>America Tucuman</p>
             <!-- <iframe src="https://www.youtube.com/embed/EkvG3ljGJqs" frameborder="0"></iframe> </a> -->
             <a href="https://www.youtube.com/watch?v=EkvG3ljGJqs" target="_blank" rel="noopener noreferrer">
-                <img src="América Tucumán.png" alt="" width="210px" height="180px">
-           
-                    
+                <img src="América Tucumán.png" alt="" width="210px" height="180px">                    
         </div>
 
         </div>
@@ -138,21 +194,21 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Canal 9</h4>
             <a href="https://www.elnueve.com.ar/en-vivo" target="_blank" rel="noopener noreferrer">
               <img src="El Nueve logo.png" alt="" width="210px" height="60px">
              </a>
             <!-- <video src="" controls id="canal9"></video> -->
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">America TV</h4>
             <a href="https://www.americatv.com.ar/vivo" target="_blank" rel="noopener noreferrer">
               <img src="America tv logo 2015.png" alt="" width="210px" height="180px">
              </a>
             <!-- <video src="" controls id="americaTV"></video>  -->
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">TV Publica</h4>
             <a href="https://www.tvpublica.com.ar/vivo/" target="_blank" rel="noopener noreferrer">
               <img src="television publica.png" alt="" width="210px" height="220px">
@@ -167,17 +223,17 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Canal 7 Norte Television - Tucuman</h4>
             <!-- <video src="" controls id="norteTV"></video> -->
             <a href="https://ntvcanal7.ddns.net/" target="_blank" rel="noopener noreferrer">
               <img src="Norte TV.png" alt="" width="210px" height="100px">    
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">La Metro - Tucuman</h4>
             <video src="" controls id="La-Metro"></video>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Canal 5 - Concepcion, Tucuman</h4>
             <!-- <video src="" controls id="canal5"></video>  -->
             <a href="http://www.canal5tucuman.com.ar/" target="_blank" rel="noopener noreferrer">
@@ -191,19 +247,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Panc TV - Tucuman</h4>
             <a href="https://panctv.com.ar/" target="_blank" rel="noopener noreferrer">
               <img src="panc-tv.png" alt="" width="210px" height="180px">
             <!-- <video src="" controls id="pancTV"></video> -->
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Canal 5 del Pueblo - Santa Fe</h4>
             <a href="https://canal5delpueblo.blogspot.com/" target="_blank" rel="noopener noreferrer">
               <img src="Canal 5 del Pueblo.webp" alt="" width="210px" height="180px">
             <!-- <video src="" controls id="canal5DelPueblo"></video> -->
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Retro Magico</h4>
             <video src="" controls id="retroMagico"></video>
         </div>
@@ -214,20 +270,20 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Ciudad Magazine</h4>
             <a href="https://television-libre.online/en-vivo/ciudad-magazine/" target="_blank" rel="noopener noreferrer">
               <img src="Ciudad_magazine_logo.png" alt="" width="300px" height="150px">
           </a>
             <!-- <video src="" controls id="ciudadMagazine"></video> -->
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Volver</h4>
             <a href="https://television-libre.online/en-vivo/volver/" target="_blank" rel="noopener noreferrer">
                 <img src="volver.png" alt="" width="250px" height="80px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Cosmos TV</h4>
             <a href="https://fmcosmos.com/vivo/" target="_blank" rel="noopener noreferrer">
               <img src="Cosmos TV.webp" alt="" width="300px" height="250px">
@@ -240,18 +296,18 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Paka Paka</h4>
             <a href="" target="_blank" rel="noopener noreferrer">
               <img src="Pakapaka_logotipo_(2010-2016).png" alt="" width="300px" height="250px">
             <!-- <iframe src="https://www.youtube.com/embed/x8pV0qE9ToM" frameborder="0" ></iframe> -->
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">The Big Channel</h4>
             <a href="https://www.youtube.com/channel/UC2e9S2yrfhm4ZD5demI71gw/videos" target="_blank" rel="noopener noreferrer">
               <img src="The_Big_Channel_1993_Laberinto.webp" alt="" width="300px" height="250px">
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Magic Kids</h4>
             <a href="https://magickids.site/" target="_blank" rel="noopener noreferrer">
               <img src="Magic Kids.png" alt="" width="300px" height="250px">
@@ -263,18 +319,18 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Tooncast</h4>
             <a href="https://www.telegratishd.com/tooncast-en-vivo.html" target="_blank" rel="noopener noreferrer">
               <img src="Tooncast_logo.svg.png" alt="" width="300px" height="180px">
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Locomotion</h4>
             <a href="http://locomotiontv.com/envivo" target="_blank" rel="noopener noreferrer">
                 <img src="Locomotion.webp" alt="" width="300px" height="150px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Disney Channel</h4>
             <a href="https://television-libre.online/en-vivo/disney-channel/" target="_blank" rel="noopener noreferrer">
               <img src="Disney_Channel_logo.svg" alt="" width="300px" height="250px">
@@ -286,19 +342,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Disney Junior</h4>
             <a href="https://television-libre.online/en-vivo/disney-jr/" target="_blank" rel="noopener noreferrer">
               <img src="disney juniorwebp.webp" alt="" width="400px" height="250px">
           </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Cartoon Network</h4>
             <a href="https://television-libre.online/en-vivo/cartoon-network/" target="_blank" rel="noopener noreferrer">
                 <img src="Cartoon_Network_2010_logo.svg.webp" alt="" width="250px" height="120px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Cartoonito</h4>
             <a href="https://television-libre.online/en-vivo/cartoonito/" target="_blank" rel="noopener noreferrer">
               <img src="Cartoonito_Logo_2021.webp" alt="" width="300px" height="150px">
@@ -311,19 +367,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">DreamWorks</h4>
             <a href="https://television-libre.online/en-vivo/dreamworks/" target="_blank" rel="noopener noreferrer">
               <img src="DreamWorks_Channel_Logo.svg" alt="" width="300px" height="150px">
           </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Discovery Kids</h4>
             <a href="https://television-libre.online/en-vivo/discovery-kids/" target="_blank" rel="noopener noreferrer">
                 <img src="Discovery_Kids_Logo_2021-Presente.webp" alt="" width="300px" height="250px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Nickelodeon</h4>
             <a href="https://television-libre.online/en-vivo/nick/" target="_blank" rel="noopener noreferrer">
               <img src="Nickelodeon_2023_logo_(outline).svg.png" alt="" width="300px" height="200px">
@@ -336,19 +392,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Nick Junior</h4>
             <a href="https://television-libre.online/en-vivo/nickjr/" target="_blank" rel="noopener noreferrer">
               <img src="Nick_Jr._logo_2023_(outline).svg.png" alt="" width="250px" height="150px">
           </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Las Estrellas</h4>
             <a href="https://television-libre.online/en-vivo/estrellas/" target="_blank" rel="noopener noreferrer">
                 <img src="Las_Estrellas_logo_(2016).svg.png" alt="" width="250px" height="180px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Tlnovelas</h4>
             <a href="https://television-libre.online/en-vivo/tlnovelas/" target="_blank" rel="noopener noreferrer">
               <img src="tlnovelas_feb2019.png" alt="" width="300px" height="150px">
@@ -361,19 +417,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Pasiones</h4>
             <a href="https://television-libre.online/en-vivo/pasiones/" target="_blank" rel="noopener noreferrer">
               <img src="Pasiones_Tv_logo.svg.webp" alt="" width="300px" height="150px">
           </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">TyC Sports</h4>
             <a href="https://television-libre.online/en-vivo/tyc-sports/" target="_blank" rel="noopener noreferrer">
                 <img src="TyC_Sports_logo.svg.webp" alt="" width="300px" height="100px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">DirecTV Sports</h4>
             <a href="https://television-libre.online/en-vivo/dsports/" target="_blank" rel="noopener noreferrer">
               <img src="DirecTV_Sports_Latin_America_-_2018_logo_v2.svg" alt="" width="300px" height="150px">
@@ -387,19 +443,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">TNT Sports</h4>
             <a href="https://television-libre.online/en-vivo/tnt-sports/" target="_blank" rel="noopener noreferrer">
               <img src="TNT_Sports_2021_logo.svg.png" alt="" width="300px" height="100px">
           </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">ESPN Premium</h4>
             <a href="https://television-libre.online/en-vivo/espn-premium/" target="_blank" rel="noopener noreferrer">
                 <img src="ESPN_Premium_logo.svg.webp" alt="" width="300px" height="150px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">ESPN 1</h4>
             <a href="https://television-libre.online/en-vivo/espn/" target="_blank" rel="noopener noreferrer">
               <img src="ESPN_logo.webp" alt="" width="300px" height="180px">
@@ -413,19 +469,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">ESPN 2</h4>
             <a href="https://television-libre.online/en-vivo/espn-2/" target="_blank" rel="noopener noreferrer">
               <img src="ESPN2_logo.webp" alt="" width="300px" height="80px">
           </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">FOX Sports</h4>
             <a href="https://television-libre.online/en-vivo/fox-sports/" target="_blank" rel="noopener noreferrer">
                 <img src="Fox_Sports_Argentina_2023.svg.png" alt="" width="300px" height="200px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">DirecTV Sports Plus</h4>
             <a href="https://television-libre.online/en-vivo/dsports-plus/" target="_blank" rel="noopener noreferrer">
               <img src="DirecTV_Sports+_Latin_America_(2018).png.webp" alt="" width="300px" height="150px">
@@ -439,19 +495,19 @@
     <article>
         <div id="canal-container">
 
-        <div class="canal">
+        <div>
             <h4 class="title">Star+</h4>
             <a href="https://television-libre.online/star-plus/" target="_blank" rel="noopener noreferrer">
               <img src="Star+_logo.svg.webp" alt="" width="300px" height="100px">
           </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Vix</h4>
             <a href="https://television-libre.online/vix-plus/" target="_blank" rel="noopener noreferrer">
                 <img src="ViX_Logo.svg.png" alt="" width="240px" height="80px">
             </a>
         </div>
-        <div class="canal">
+        <div>
             <h4 class="title">Roque</h4>
             <a href="https://www.youtube.com/channel/UCJYriSJzxy1X1hSkgdE7kdQ/" target="_blank" rel="noopener noreferrer">
               <img src="roque-logo-275-1599.png" alt="" width="300px" height="150px">
